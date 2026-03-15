@@ -1,0 +1,13 @@
+{
+  "platforms": {
+    "android": {
+      "packageName": "com.nanofuxion.tamerdisplaybrowser",
+      "moduleClassNames": ["com.nanofuxion.tamerdisplaybrowser.DisplayBrowserModule"],
+      "sourceDir": "android"
+    },
+    "ios": {
+      "podspecPath": "ios/tamerdisplaybrowser",
+      "moduleClassNames": ["DisplayBrowserModule"]
+    }
+  }
+}

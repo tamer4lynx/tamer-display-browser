@@ -1,0 +1,31 @@
+{
+  "name": "tamer-display-browser",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Open URLs in system browser for Lynx.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "android", "ios"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "dependencies": {
+    "tamer-linking": "*"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Nanofuxion",
+  "license": "MIT"
+}
