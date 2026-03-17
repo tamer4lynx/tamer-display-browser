@@ -1,6 +1,6 @@
 'background only'
 
-import { addEventListener } from 'tamer-linking'
+import { addEventListener } from '@tamer4lynx/tamer-linking'
 import type { AuthSessionResult } from './browser.types.js'
 
 declare const NativeModules: {

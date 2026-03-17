@@ -5,7 +5,7 @@ Open URLs in the system browser for Lynx. Supports in-app auth sessions (OAuth c
 ## Installation
 
 ```bash
-npm install tamer-display-browser
+npm install @tamer4lynx/tamer-display-browser
 ```
 
 Add to your app's dependencies and run `t4l link`.
@@ -13,7 +13,7 @@ Add to your app's dependencies and run `t4l link`.
 ## Usage
 
 ```ts
-import { openBrowserAsync, openAuthSessionAsync, dismissBrowser } from 'tamer-display-browser'
+import { openBrowserAsync, openAuthSessionAsync, dismissBrowser } from '@tamer4lynx/tamer-display-browser'
 
 // Open URL in system browser
 const result = await openBrowserAsync('https://example.com')

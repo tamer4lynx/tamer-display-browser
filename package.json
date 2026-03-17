@@ -1,6 +1,7 @@
 {
-  "name": "tamer-display-browser",
-  "version": "0.1.0",
+  "name": "@tamer4lynx/tamer-display-browser",
+  "version": "0.0.1",
+  "publishConfig": { "access": "public", "tag": "prerelease" },
   "type": "module",
   "description": "Open URLs in system browser for Lynx.",
   "main": "dist/index.js",
@@ -12,19 +13,32 @@
       "default": "./dist/index.js"
     }
   },
-  "files": ["dist", "android", "ios"],
+  "files": [
+    "dist",
+    "android/src",
+    "android/build.gradle.kts",
+    "ios"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "tsc"
   },
   "dependencies": {
-    "tamer-linking": "*"
+    "@tamer4lynx/tamer-linking": "^0.0.1"
   },
   "devDependencies": {
     "typescript": "~5.8.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamer4lynx/tamer-display-browser.git"
+  },
+  "homepage": "https://github.com/tamer4lynx/tamer-display-browser#readme",
+  "bugs": {
+    "url": "https://github.com/tamer4lynx/tamer-display-browser/issues"
   },
   "author": "Nanofuxion",
   "license": "MIT"
