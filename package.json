@@ -1,7 +1,10 @@
 {
   "name": "@tamer4lynx/tamer-display-browser",
-  "version": "0.0.1",
-  "publishConfig": { "access": "public", "tag": "prerelease" },
+  "version": "0.0.2",
+  "publishConfig": {
+    "access": "public",
+    "tag": "prerelease"
+  },
   "type": "module",
   "description": "Open URLs in system browser for Lynx.",
   "main": "dist/index.js",

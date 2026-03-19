@@ -3,14 +3,6 @@
 import { addEventListener } from '@tamer4lynx/tamer-linking'
 import type { AuthSessionResult } from './browser.types.js'
 
-declare const NativeModules: {
-  DisplayBrowserModule?: {
-    openBrowserAsync(url: string, optionsJson: string, callback: (result: string) => void): void
-    openAuthSessionAsync?(url: string, redirectUrl: string | null, callback: (result: string) => void): void
-    dismissBrowser?(callback: (result: string) => void): void
-  }
-}
-
 export async function openBrowserAsync(url: string): Promise<{ type: string }> {
   return new Promise((resolve) => {
     const mod = NativeModules?.DisplayBrowserModule
