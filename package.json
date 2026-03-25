@@ -1,6 +1,6 @@
 {
   "name": "@tamer4lynx/tamer-display-browser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publishConfig": {
     "access": "public",
     "tag": "prerelease"
@@ -28,7 +28,7 @@
     "prepare": "tsc"
   },
   "dependencies": {
-    "@tamer4lynx/tamer-linking": "^0.0.3"
+    "@tamer4lynx/tamer-linking": ">=0.0.1"
   },
   "devDependencies": {
     "typescript": "~5.8.0"
