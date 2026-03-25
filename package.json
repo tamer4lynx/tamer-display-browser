@@ -1,6 +1,6 @@
 {
   "name": "@tamer4lynx/tamer-display-browser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publishConfig": {
     "access": "public",
     "tag": "prerelease"
@@ -20,7 +20,8 @@
     "dist",
     "android/src",
     "android/build.gradle.kts",
-    "ios"
+    "ios",
+    "lynx.ext.json"
   ],
   "scripts": {
     "build": "tsc",
